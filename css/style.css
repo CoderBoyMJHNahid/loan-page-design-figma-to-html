@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+header{
+    padding:24px 0px;
+    border-bottom: 2px solid #E5E7EB;
+}
+.logo{
+    width: 100px;
+}
+section{
+    padding: 50px 0px;
+}
+.loan_page_details_wrapper{
+    width: 550px;
+    margin: auto;
+}
+.loan_page_title h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+}
+.loan_page_title p{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.loan_card{
+    padding: 32px 24px 32px 24px;
+    background-color: rgba(247, 248, 249, 1);
+    box-shadow: 0px 15px 10px -10px rgba(31, 41, 55, 0.2);
+    box-shadow: 0px 10px 21px 0px rgba(31, 41, 55, 0.1);
+    border-radius: 8px;
+}
+.loan_card p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(31, 41, 55, 1);
+}
+.card_top_part{
+    border-bottom: 1px solid rgba(229, 231, 235, 1);
+}
+.btn_wrapper button{
+    color: rgba(29, 78, 216, 1);
+}
+.larger_loan_btn{
+    padding: 12px 24px 12px 24px;
+    border-radius: 28px;
+    border: 1px solid rgba(206, 217, 248, 1);
+    background: linear-gradient(0deg, #E9EDFC, #E9EDFC),linear-gradient(0deg, #CED9F8, #CED9F8);
+}
+.continue_btn{
+    padding: 12px 24px 12px 24px;
+    border-radius: 28px;
+    background: rgba(29, 78, 216, 1);
+    color: white !important;
+}
+.continue_btn:hover{
+    background: rgb(63, 103, 213);
+    color: white !important;
+}
+.continue_btn:active{
+    background: rgba(29, 78, 216, 1);
+    color: white !important;
+}
